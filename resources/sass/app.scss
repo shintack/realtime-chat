@@ -1,0 +1,44 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// style contact list
+.list-contact {
+    list-style: none;
+}
+.contact:hover {
+    background-color: #ffff99;
+    cursor: pointer;
+}
+.contact-name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.contact-online {
+    font-style: italic;
+    font-size: 0.8em;
+}
+.rpl {
+    padding-left: 0%;
+}
+.chat-panel {
+    max-height: 400px;
+    overflow-x: auto;
+}
+
+.list-contact li {
+    margin-left: -40px;
+    min-height: 65px;
+}
+.list-contact li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+// end style contact list
